@@ -1,4 +1,4 @@
-# 🎯 Gestão de Desenvolvimento Pessoal - Interface Web
+#  Gestão de Desenvolvimento Pessoal - Interface Web
 
 Interface web responsiva **estilo Jira** para gerenciar seu desenvolvimento pessoal e profissional. Desenvolvida com **React 19 + Vite + Tailwind CSS**.
 
@@ -7,59 +7,59 @@ Interface web responsiva **estilo Jira** para gerenciar seu desenvolvimento pess
 ![Vite](https://img.shields.io/badge/Vite-7.1-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🚀 Visão Geral
+## Visão Geral
 
 Esta é uma interface moderna para a **API de Gestão de Desenvolvimento Pessoal**, permitindo que você:
 
-- 📊 Visualize seu progresso em um dashboard interativo
-- 🎯 Gerencie metas pessoais e profissionais
-- 📁 Organize seus projetos
-- 👥 Registre mentorias
-- 📚 Acompanhe seus aprendizados
-- 💡 Documente melhorias
-- 📝 Crie anotações
+- Visualize seu progresso em um dashboard interativo
+ Gerencie metas pessoais e profissionais
+- Organize seus projetos
+- Registre mentorias
+- Acompanhe seus aprendizados
+- Documente melhorias
+- Crie anotações
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🔐 Autenticação
+### Autenticação
 - ✅ Registro de novos usuários
 - ✅ Login com JWT
 - ✅ Logout seguro
 - ✅ Proteção de rotas
 
-### 📊 Dashboard
+### Dashboard
 - ✅ Resumo de metas (total, concluídas, em progresso, planejadas)
 - ✅ Gráficos de evolução por período
 - ✅ Distribuição de status em pizza chart
 - ✅ Cards com métricas principais
 
-### 🎯 Gerenciador de Metas
+### Gerenciador de Metas
 - ✅ Criar, editar, deletar metas
 - ✅ Filtrar por status (A Fazer, Em Progresso, Concluída)
 - ✅ Visualização em cards
 - ✅ Informações de tipo e prazo
 
-### 📁 Projetos
+### Projetos
 - ✅ Listagem de projetos
 - ✅ Gerenciamento completo
 
-### 👥 Mentorias
+### Mentorias
 - ✅ Registro de mentorias
 - ✅ Visualização e gerenciamento
 
-### 📚 Aprendizados
+### Aprendizados
 - ✅ Gestão de cursos e workshops
 - ✅ Organização por tipo
 
-### 💡 Melhorias
+### Melhorias
 - ✅ Registro de melhorias
 - ✅ Acompanhamento
 
-### 📝 Anotações
+### Anotações
 - ✅ Criação e organização
 - ✅ Filtros por período
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Tecnologia | Versão | Propósito |
 |-----------|--------|----------|
@@ -71,7 +71,7 @@ Esta é uma interface moderna para a **API de Gestão de Desenvolvimento Pessoal
 | **Recharts** | 2.15.2 | Gráficos |
 | **Lucide React** | 0.453.0 | Ícones |
 
-## 📦 Instalação
+## Instalação
 
 ### Pré-requisitos
 - **Node.js** 18.x ou superior
@@ -117,7 +117,7 @@ npm run dev
 
 O aplicativo estará disponível em **http://localhost:5173**
 
-## 🚀 Uso
+##  Uso
 
 ### Desenvolvimento
 
@@ -136,7 +136,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 gestao-desenvolvimento-pessoal-web/
@@ -174,7 +174,7 @@ gestao-desenvolvimento-pessoal-web/
 └── README.md                       # Este arquivo
 ```
 
-## 🎨 Design System
+## Design System
 
 ### Cores Principais
 
@@ -200,7 +200,7 @@ gestao-desenvolvimento-pessoal-web/
 - **Tables**: Com sorting e filtros
 - **Charts**: Linha, Pizza, Barras (Recharts)
 
-## 🔐 Autenticação
+## Autenticação
 
 ### Fluxo de Login
 
@@ -222,7 +222,7 @@ gestao-desenvolvimento-pessoal-web/
 
 Todas as rotas exceto `/login` e `/register` são protegidas. Se o token expirar, o usuário é automaticamente redirecionado para `/login`.
 
-## 📱 Responsividade
+## Responsividade
 
 A aplicação é totalmente responsiva e funciona em todos os dispositivos:
 
@@ -279,7 +279,7 @@ GET    /dashboard/progress-graph # Gráfico de progresso
 GET    /dashboard/filter        # Filtrar dados
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Erro: "Cannot GET /api/users/me"
 
@@ -321,7 +321,7 @@ npm install
 npm run dev
 ```
 
-## 📚 Documentação da API
+## Documentação da API
 
 Para documentação completa da API, acesse:
 
@@ -331,7 +331,7 @@ http://localhost:3000/api-docs
 
 (Quando a API está rodando localmente)
 
-## 🚀 Deploy
+##  Deploy
 
 ### Vercel (Recomendado)
 
@@ -377,7 +377,7 @@ docker build -t gestao-dev-web .
 docker run -p 5173:5173 gestao-dev-web
 ```
 
-## 📊 Performance
+## Performance
 
 - ✅ Build otimizado com Vite
 - ✅ Code splitting automático
@@ -385,7 +385,7 @@ docker run -p 5173:5173 gestao-dev-web
 - ✅ Caching de requisições
 - ✅ Minificação de assets
 
-## 🔒 Segurança
+## Segurança
 
 - ✅ JWT para autenticação
 - ✅ Token armazenado seguramente
@@ -393,7 +393,7 @@ docker run -p 5173:5173 gestao-dev-web
 - ✅ Validação de entrada
 - ✅ Proteção contra XSS
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 1. Fork o projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
@@ -401,18 +401,18 @@ docker run -p 5173:5173 gestao-dev-web
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
+##  Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Simone Monteiro Gabionetta**
 
 - GitHub: [@simonegabionetta](https://github.com/simonegabionetta)
 - LinkedIn: [Simone Monteiro](https://linkedin.com/in/simonegabionetta)
 
-## 📞 Suporte
+## Suporte
 
 Para dúvidas ou sugestões:
 
@@ -420,7 +420,7 @@ Para dúvidas ou sugestões:
 2. Envie um email
 3. Crie uma discussão no GitHub
 
-## 🎯 Roadmap
+##  Roadmap
 
 - [ ] Implementar formulários para todas as páginas
 - [ ] Adicionar filtros avançados
@@ -433,7 +433,7 @@ Para dúvidas ou sugestões:
 - [ ] Notificações em tempo real
 - [ ] Mobile app (React Native)
 
-## 📈 Estatísticas
+##  Estatísticas
 
 - **Componentes**: 10+
 - **Páginas**: 8
@@ -442,6 +442,6 @@ Para dúvidas ou sugestões:
 
 ---
 
-**Desenvolvido com ❤️ para gerenciar seu desenvolvimento pessoal**
+**Desenvolvido para gerenciar seu desenvolvimento pessoal**
 
 ⭐ Se este projeto foi útil, deixe uma estrela!
